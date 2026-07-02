@@ -300,3 +300,8 @@ input:focus,textarea:focus,select:focus{outline:0;border-bottom-color:var(--acce
 .soin-card{padding-top:0;overflow:hidden}
 .soin-img{width:calc(100% + 72px);max-width:none;margin:-1px -36px 22px;height:210px;object-fit:cover;display:block}
 @media(max-width:900px){.soin-img{width:calc(100% + 72px)}}
+
+/* Haut de page compact (photo visible sans scroller) */
+.page-head.slim{padding:52px 0 20px}
+section.intro-top{padding-top:36px}
+@media(max-width:900px){.page-head.slim{padding:36px 0 12px}section.intro-top{padding-top:20px}}
