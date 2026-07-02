@@ -295,3 +295,8 @@ input:focus,textarea:focus,select:focus{outline:0;border-bottom-color:var(--acce
   section{padding:60px 0}
   .hero{padding:80px 0}
 }
+
+/* Images des cartes soins esthétiques */
+.soin-card{padding-top:0;overflow:hidden}
+.soin-img{width:calc(100% + 72px);max-width:none;margin:-1px -36px 22px;height:210px;object-fit:cover;display:block}
+@media(max-width:900px){.soin-img{width:calc(100% + 72px)}}
