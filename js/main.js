@@ -41,4 +41,39 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  // Carrousel du cabinet (défilement auto + flèches + points)
+  var carousel = document.getElementById('cabinet-carousel');
+  if (carousel) {
+    var track = carousel.querySelector('.carousel-track');
+    var slides = Array.prototype.slice.call(carousel.querySelectorAll('.slide'));
+    var dotsWrap = carousel.querySelector('.carousel-dots');
+    var index = 0, timer = null;
+
+    slides.forEach(function (_, idx) {
+      var b = document.createElement('button');
+      b.setAttribute('aria-label', 'Aller à la photo ' + (idx + 1));
+      if (idx === 0) b.className = 'active';
+      b.addEventListener('click', function () { goTo(idx); });
+      dotsWrap.appendChild(b);
+    });
+    var dots = Array.prototype.slice.call(dotsWrap.children);
+
+    function render() {
+      track.style.transform = 'translateX(-' + (index * 100) + '%)';
+      dots.forEach(function (d, idx) { d.classList.toggle('active', idx === index); });
+    }
+    function goTo(n) { index = (n + slides.length) % slides.length; render(); restart(); }
+    function next() { goTo(index + 1); }
+    function prev() { goTo(index - 1); }
+    function start() { timer = setInterval(next, 4000); }
+    function stop() { clearInterval(timer); }
+    function restart() { stop(); start(); }
+
+    carousel.querySelector('.carousel-btn.next').addEventListener('click', next);
+    carousel.querySelector('.carousel-btn.prev').addEventListener('click', prev);
+    carousel.addEventListener('mouseenter', stop);
+    carousel.addEventListener('mouseleave', start);
+    start();
+  }
 });
