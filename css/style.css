@@ -311,7 +311,7 @@ section.intro-top{padding-top:36px}
 .carousel-viewport{overflow:hidden;border-radius:var(--radius)}
 .carousel-track{display:flex;transition:transform .6s cubic-bezier(.4,0,.2,1);will-change:transform}
 .carousel .slide{min-width:100%;flex:0 0 100%}
-.carousel .slide img{width:100%;height:520px;object-fit:cover;display:block}
+.carousel .slide img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:#f1ebe4}
 .carousel-btn{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:0;background:rgba(255,255,255,.88);color:var(--ink);font-size:1.9rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 12px rgba(0,0,0,.18);transition:background .2s,transform .2s;z-index:2}
 .carousel-btn:hover{background:#fff;transform:translateY(-50%) scale(1.06)}
 .carousel-btn.prev{left:16px}
@@ -319,4 +319,4 @@ section.intro-top{padding-top:36px}
 .carousel-dots{position:absolute;bottom:16px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:2}
 .carousel-dots button{width:9px;height:9px;border-radius:50%;border:0;background:rgba(255,255,255,.55);cursor:pointer;padding:0;transition:all .25s}
 .carousel-dots button.active{background:#fff;width:24px;border-radius:5px}
-@media(max-width:700px){.carousel .slide img{height:340px}.carousel-btn{width:40px;height:40px;font-size:1.6rem}}
+@media(max-width:700px){.carousel-btn{width:40px;height:40px;font-size:1.6rem}}
