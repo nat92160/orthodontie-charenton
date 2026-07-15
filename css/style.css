@@ -44,7 +44,7 @@ p{margin-bottom:1.1rem;color:var(--ink-soft)}
 strong{color:var(--ink);font-weight:600}
 
 .container{max-width:var(--max);margin:0 auto;padding:0 28px}
-section{padding:110px 0}
+section{padding:88px 0}
 .section-alt{background:var(--bg-soft)}
 .center{text-align:center}
 .lead{font-size:1.2rem;color:var(--ink-soft);max-width:640px;margin:0 auto 2.4rem;line-height:1.6}
@@ -95,13 +95,13 @@ header.site-header{
 /* ---------- Hero ---------- */
 .hero{padding:80px 0 0;background:var(--bg);border-bottom:1px solid var(--line);overflow:hidden}
 .hero-inner{display:grid;grid-template-columns:1.02fr .98fr;gap:64px;align-items:center}
-.hero-copy{padding-bottom:80px}
-.hero h1{color:var(--ink);margin-bottom:.35em;max-width:15ch}
-.hero p{font-size:1.24rem;max-width:520px;margin-bottom:2.4rem;color:var(--ink-soft)}
+.hero-copy{padding-bottom:44px}
+.hero h1{color:var(--ink);margin-bottom:.3em;max-width:15ch}
+.hero p{font-size:1.2rem;max-width:520px;margin-bottom:1.9rem;color:var(--ink-soft)}
 .hero .btn{margin-right:12px;margin-bottom:12px}
 .hero-photo{position:relative;align-self:stretch;min-height:100%}
-.hero-photo img{width:100%;height:100%;min-height:560px;object-fit:cover;object-position:center 42%;display:block}
-.hero-badges{display:flex;gap:44px;margin-top:52px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:32px}
+.hero-photo img{width:100%;height:100%;min-height:520px;object-fit:cover;object-position:center 42%;display:block}
+.hero-badges{display:flex;gap:40px;margin-top:26px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px}
 .hero-badges div{font-size:.9rem;color:var(--ink-soft)}
 .hero-badges strong{display:block;font-family:var(--serif);font-size:1.9rem;font-weight:400;color:var(--ink);margin-bottom:2px}
 
