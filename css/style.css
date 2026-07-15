@@ -202,6 +202,8 @@ footer a{color:#e3d3d9}
 footer a:hover{color:#fff;opacity:1}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1.3fr;gap:56px}
 .foot-grid ul{list-style:none}
+.foot-zones{font-size:.82rem;margin-top:12px;color:#b9a3aa}
+.foot-zones a{text-decoration:underline}
 .foot-grid li{margin-bottom:11px}
 .foot-bottom{border-top:1px solid rgba(255,255,255,.14);margin-top:56px;padding-top:26px;text-align:center;font-size:.82rem;color:#9a8189;letter-spacing:.02em}
 
