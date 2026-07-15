@@ -89,6 +89,14 @@ header.site-header{
 .menu{display:flex;gap:24px;align-items:center;list-style:none;margin:0 auto}
 .menu a{color:var(--ink-soft);font-weight:500;font-size:.88rem;letter-spacing:.01em;white-space:nowrap}
 .menu a:hover,.menu a.active{color:var(--ink);opacity:1}
+.menu li.has-dropdown{position:relative}
+.menu li.has-dropdown>a::after{content:"⌄";font-size:.85em;margin-left:5px;position:relative;top:-2px}
+.menu .dropdown{position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 40px rgba(40,20,25,.12);padding:8px 0;min-width:236px;list-style:none;margin:0;display:none;flex-direction:column;z-index:60}
+.menu li.has-dropdown:hover .dropdown,.menu li.has-dropdown:focus-within .dropdown{display:flex}
+.menu .dropdown::before{content:"";position:absolute;bottom:100%;left:0;right:0;height:12px}
+.menu .dropdown li{width:100%}
+.menu .dropdown a{display:block;padding:11px 20px;white-space:nowrap;font-size:.86rem}
+.menu .dropdown a:hover{background:#f7f2ec;color:var(--accent)}
 .nav .btn{padding:11px 22px;flex:0 0 auto}
 .burger{display:none;background:none;border:0;font-size:1.6rem;color:var(--ink);cursor:pointer;line-height:1}
 
@@ -286,6 +294,11 @@ input:focus,textarea:focus,select:focus{outline:0;border-bottom-color:var(--acce
   }
   .menu.open{display:flex}
   .menu li{width:100%;text-align:center;padding:15px 0;border-bottom:1px solid var(--line)}
+  .menu li.has-dropdown{padding-bottom:0}
+  .menu li.has-dropdown>a::after{display:none}
+  .menu .dropdown{position:static;transform:none;display:flex;border:0;box-shadow:none;border-radius:0;padding:0;min-width:0;margin-top:12px;background:#faf6f1}
+  .menu .dropdown li{border-bottom:1px solid var(--line);border-top:1px solid var(--line);margin-top:-1px}
+  .menu .dropdown a{padding:13px 0;font-size:.92rem;color:var(--ink-soft)}
   .burger{display:block}
   .nav .btn.desktop-cta{display:none}
   .hero-badges{gap:32px}
