@@ -349,3 +349,12 @@ section.intro-top{padding-top:36px}
 .photo-slot::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(122,31,61,.20),rgba(193,157,104,.10) 45%,rgba(248,244,239,0) 78%);pointer-events:none}
 @keyframes kenburns{from{transform:scale(1.001)}to{transform:scale(1.08)}}
 @media(prefers-reduced-motion:reduce){.photo-slot img{animation:none}}
+
+/* Carrousel du hero (photos qui défilent) */
+.hero-carousel{overflow:hidden}
+.hero-carousel .slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s ease}
+.hero-carousel .slide.is-active{opacity:1}
+.hero-carousel .slide img{animation:kenburns 18s ease-in-out infinite alternate}
+@media(prefers-reduced-motion:reduce){.hero-carousel .slide img{animation:none}}
+.hero-carousel{min-height:520px}
+@media(max-width:900px){.hero-carousel{min-height:380px;margin:0 -22px}}

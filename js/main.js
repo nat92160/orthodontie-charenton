@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // Emplacement photo dynamique (fondu enchaîné entre plusieurs photos)
-  document.querySelectorAll('.photo-slot').forEach(function (slot) {
+  document.querySelectorAll('.photo-slot, .hero-carousel').forEach(function (slot) {
     var slides = slot.querySelectorAll('.slide');
     if (slides.length < 2) return;
     var i = 0;
