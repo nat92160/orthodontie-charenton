@@ -76,4 +76,16 @@ document.addEventListener('DOMContentLoaded', function () {
     carousel.addEventListener('mouseleave', start);
     start();
   }
+
+  // Emplacement photo dynamique (fondu enchaîné entre plusieurs photos)
+  document.querySelectorAll('.photo-slot').forEach(function (slot) {
+    var slides = slot.querySelectorAll('.slide');
+    if (slides.length < 2) return;
+    var i = 0;
+    setInterval(function () {
+      slides[i].classList.remove('is-active');
+      i = (i + 1) % slides.length;
+      slides[i].classList.add('is-active');
+    }, 5000);
+  });
 });
