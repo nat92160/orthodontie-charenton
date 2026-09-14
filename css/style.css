@@ -89,6 +89,12 @@ header.site-header{
 .menu{display:flex;gap:24px;align-items:center;list-style:none;margin:0 auto}
 .menu a{color:var(--ink-soft);font-weight:500;font-size:.88rem;letter-spacing:.01em;white-space:nowrap}
 .menu a:hover,.menu a.active{color:var(--ink);opacity:1}
+.menu a.nav-pill{
+  border:1px solid var(--line);border-radius:50px;padding:6px 12px;color:var(--ink)
+}
+.menu a.nav-pill:hover,.menu a.nav-pill.active{
+  border-color:var(--accent);color:var(--accent);opacity:1
+}
 .menu li.has-dropdown{position:relative}
 .menu li.has-dropdown>a::after{content:"⌄";font-size:.85em;margin-left:5px;position:relative;top:-2px}
 .menu .dropdown{position:absolute;top:100%;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 40px rgba(40,20,25,.12);padding:8px 0;min-width:236px;list-style:none;margin:0;display:none;flex-direction:column;z-index:60}
@@ -112,6 +118,17 @@ header.site-header{
 }
 .hero p{font-size:1.2rem;max-width:520px;margin-bottom:1.9rem;color:var(--ink-soft)}
 .hero .btn{margin-right:12px;margin-bottom:12px}
+.hero p.hero-aside{
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  margin:4px 0 8px;font-size:.88rem;color:var(--ink-soft)
+}
+.hero-chip{
+  display:inline-flex;align-items:center;gap:8px;
+  border:1px solid var(--line);border-radius:50px;padding:8px 14px;
+  color:var(--ink);font-weight:500;font-size:.84rem;letter-spacing:.01em;
+  background:var(--bg-soft)
+}
+.hero-chip:hover{border-color:var(--accent);color:var(--accent);opacity:1;background:#fff}
 .hero-photo{position:relative;align-self:stretch;min-height:100%}
 .hero-photo img{width:100%;height:100%;min-height:520px;object-fit:cover;object-position:center 42%;display:block}
 .hero-badges{display:flex;gap:40px;margin-top:26px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px}
@@ -196,7 +213,7 @@ header.site-header{
 
 /* ---------- Page interne header ---------- */
 .page-head{background:var(--bg);padding:100px 0 70px;text-align:center;border-bottom:1px solid var(--line)}
-.page-head h1{color:var(--ink);max-width:16ch;margin:0 auto}
+.page-head h1{color:var(--ink);max-width:22ch;margin:0 auto}
 .page-head p{color:var(--ink-soft);max-width:560px;margin:1.2rem auto 0;font-size:1.15rem}
 
 /* ---------- Pied de page ---------- */
@@ -367,3 +384,36 @@ section.intro-top{padding-top:36px}
 /* Encadré du carrousel hero */
 .hero-carousel{border-radius:12px;box-shadow:0 20px 50px rgba(38,35,36,.18);border:1px solid rgba(193,157,104,.38)}
 @media(max-width:900px){.hero-carousel{margin:0}}
+
+/* Lien soins esthétiques dans le menu mobile : rangée complète, pas une pastille coincée sous le bouton RDV */
+@media(max-width:900px){
+  .menu.open{
+    max-height:calc(100vh - 71px);
+    overflow-y:auto;
+    padding-bottom:88px;
+  }
+  .menu a.nav-pill{
+    display:block;
+    border:0;
+    border-radius:0;
+    padding:0;
+    color:var(--accent);
+    font-weight:600
+  }
+}
+
+/* Bandeau soins esthétiques (accueil) */
+.esthe-home{background:var(--bg-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.esthe-home .lead{max-width:720px}
+.esthe-home .card:hover{background:#fff}
+.esthe-home-cta{display:flex;justify-content:center;align-items:center;gap:12px;flex-wrap:wrap;margin-top:36px}
+.esthe-home-cta .btn{margin:0}
+
+/* Détail d'un soin (page soins esthétiques) */
+.service-block h3{margin-top:1.4rem;font-size:1.12rem}
+.service-block ul{margin:0 0 1.2rem;padding:0;list-style:none}
+.service-block li{padding:10px 0;border-top:1px solid var(--line);color:var(--ink);font-size:.98rem}
+.service-block li:last-child{border-bottom:1px solid var(--line)}
+.cta-inline{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}
+.note-med{font-size:.9rem;color:var(--ink-soft);max-width:720px;margin:24px auto 0;text-align:center}
+#acide-hyaluronique,#peeling,#hydrofacial,#soins-esthetiques{scroll-margin-top:96px}
