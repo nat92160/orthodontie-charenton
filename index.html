@@ -20,6 +20,9 @@
 <meta property="og:image" content="https://www.orthodontie-charenton.fr/images/facade-cabinet.jpg">
 
 <link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="preload" href="css/fonts/playfair-display-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="css/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="images/enfant-sourire-bagues-1.jpg">
 <link rel="stylesheet" href="css/style.css?v=9">
 
 <!-- Nom du site pour Google -->
@@ -127,7 +130,7 @@
  <li><a href="index.html" class="active">Accueil</a></li>
  <li><a href="orthodontie-enfants-adolescents.html">Enfants &amp; ados</a></li>
  <li><a href="orthodontie-adulte.html">Adultes</a></li>
- <li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li><li class="has-dropdown"><a href="le-deroulement-du-traitement.html">Le traitement</a><ul class="dropdown"><li><a href="le-deroulement-du-traitement.html">Le déroulement du traitement</a></li><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="conseils-appareil-dentaire.html">Conseils : vivre avec un appareil</a></li></ul></li>
+ <li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li><li class="has-dropdown"><a href="le-deroulement-du-traitement.html">Le traitement</a><ul class="dropdown"><li><a href="le-deroulement-du-traitement.html">Le déroulement du traitement</a></li><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="conseils-appareil-dentaire.html">Conseils : vivre avec un appareil</a></li><li><a href="blog/index.html">Conseils</a></li></ul></li>
  <li><a href="soins-esthetiques.html" class="nav-pill">Soins esthétiques</a></li>
  <li><a href="le-cabinet.html">Le cabinet</a></li>
  <li><a href="contact.html">Contact</a></li>
@@ -158,7 +161,7 @@
  </div>
  </div>
  <div class="hero-photo">
- <img src="images/enfant-sourire-bagues-1.jpg" alt="Jeune fille souriante portant un appareil dentaire à Charenton-le-Pont" width="760" height="570">
+ <img src="images/enfant-sourire-bagues-1.jpg" alt="Jeune fille souriante portant un appareil dentaire à Charenton-le-Pont" width="760" height="570" fetchpriority="high" decoding="async">
  </div>
  </div>
  </div>
@@ -191,7 +194,7 @@
 <section>
  <div class="container split">
  <div>
- <img src="images/dr-marciano-soin.jpg" alt="Le Dr Jessica Marciano en consultation à Charenton-le-Pont" width="520" height="700">
+ <img src="images/dr-marciano-soin.jpg" alt="Le Dr Jessica Marciano en consultation à Charenton-le-Pont" width="520" height="700" loading="lazy" decoding="async">
  </div>
  <div>
  <span class="kicker">Votre orthodontiste</span>
@@ -212,19 +215,19 @@
  </div>
  <div class="grid grid-3">
  <article class="card soin-card">
- <img class="soin-img" src="images/sourire-enfant-bagues.jpg" alt="Enfant souriant portant un appareil dentaire (bagues) à Charenton-le-Pont">
+ <img class="soin-img" src="images/sourire-enfant-bagues.jpg" alt="Enfant souriant portant un appareil dentaire (bagues) à Charenton-le-Pont" width="800" height="500" loading="lazy" decoding="async">
  <h3>Enfants &amp; adolescents</h3>
  <p>Dépistage précoce, appareils fixes ou amovibles, dans un cadre ludique et sécurisant pour les plus jeunes.</p>
  <a class="more" href="orthodontie-enfants-adolescents.html">En savoir plus →</a>
  </article>
  <article class="card soin-card">
- <img class="soin-img" src="https://images.unsplash.com/photo-1597780429637-151fe9eb48ef?auto=format&fit=crop&w=800&h=600&q=72" alt="Adulte au sourire aligné après un traitement d'orthodontie">
+ <img class="soin-img" src="images/hero-portrait.jpg" alt="Adulte au sourire aligné après un traitement d'orthodontie" width="800" height="500" loading="lazy" decoding="async">
  <h3>Adultes</h3>
  <p>Il n'y a pas d'âge pour aligner ses dents : solutions discrètes et efficaces adaptées à votre vie quotidienne.</p>
  <a class="more" href="orthodontie-adulte.html">En savoir plus →</a>
  </article>
  <article class="card soin-card">
- <img class="soin-img" src="images/aligneur-transparent.jpg" alt="Homme mettant en place un aligneur transparent (gouttière invisible)">
+ <img class="soin-img" src="images/aligneur-transparent.jpg" alt="Homme mettant en place un aligneur transparent (gouttière invisible)" width="800" height="500" loading="lazy" decoding="async">
  <h3>Aligneurs invisibles</h3>
  <p>Des gouttières transparentes sur-mesure, quasi invisibles et amovibles, pour corriger votre sourire en toute discrétion.</p>
  <a class="more" href="aligneurs-invisibles.html">En savoir plus →</a>
@@ -243,19 +246,19 @@
  </div>
  <div class="grid grid-3">
  <article class="card soin-card">
- <img class="soin-img" src="https://images.unsplash.com/photo-1761819921052-2c34973e012c?auto=format&fit=crop&w=800&h=600&q=70" alt="Injection d'acide hyaluronique à Charenton-le-Pont">
+ <img class="soin-img" src="images/soin-acide-hyaluronique.jpg" alt="Injection d'acide hyaluronique à Charenton-le-Pont" width="800" height="500" loading="lazy" decoding="async">
  <h3>Injections d'acide hyaluronique</h3>
  <p>Hydrater, repulper et adoucir les traits, avec un résultat naturel, dans un cadre médical sécurisé au cabinet.</p>
  <a class="more" href="acide-hyaluronique-charenton.html">En savoir plus →</a>
  </article>
  <article class="card soin-card">
- <img class="soin-img" src="https://images.unsplash.com/photo-1761718209835-c8586b7dcac0?auto=format&fit=crop&w=800&h=600&q=70" alt="Peeling du visage à Charenton-le-Pont">
+ <img class="soin-img" src="images/soin-peeling.jpg" alt="Peeling du visage à Charenton-le-Pont" width="800" height="500" loading="lazy" decoding="async">
  <h3>Peeling</h3>
  <p>Raviver l'éclat du teint et affiner le grain de peau, après une évaluation adaptée à votre visage.</p>
  <a class="more" href="peeling-charenton.html">En savoir plus →</a>
  </article>
  <article class="card soin-card">
- <img class="soin-img" src="https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=800&h=600&q=70" alt="Soin hydrofacial à Charenton-le-Pont">
+ <img class="soin-img" src="images/soin-hydrofacial.jpg" alt="Soin hydrofacial à Charenton-le-Pont" width="800" height="500" loading="lazy" decoding="async">
  <h3>Hydrofacial</h3>
  <p>Nettoyage en profondeur et hydratation pour une peau plus fraîche et lumineuse, au 176 Rue de Paris.</p>
  <a class="more" href="hydrofacial-charenton.html">En savoir plus →</a>
@@ -283,7 +286,7 @@
  <a href="le-cabinet.html" class="btn btn-outline">Découvrir le cabinet</a>
  </div>
  <div>
- <img src="images/salle-attente.jpg" alt="Salle d'attente du Centre d'Orthodontie Gravelle à Charenton-le-Pont" width="600" height="400">
+ <img src="images/salle-attente.jpg" alt="Salle d'attente du Centre d'Orthodontie Gravelle à Charenton-le-Pont" width="600" height="400" loading="lazy" decoding="async">
  </div>
  </div>
 </section>
@@ -437,7 +440,7 @@
  <a href="https://www.doctolib.fr/centre-dentaire/charenton-le-pont/centre-d-orthodontie-gravelle" target="_blank" rel="noopener" class="btn btn-primary">Prendre RDV sur Doctolib</a>
  </div>
  <div class="map-embed">
- <iframe src="https://www.google.com/maps?q=176+Rue+de+Paris,+94220+Charenton-le-Pont&output=embed" title="Localisation du Centre d'Orthodontie Gravelle"></iframe>
+ <iframe loading="lazy" src="https://www.google.com/maps?q=176+Rue+de+Paris,+94220+Charenton-le-Pont&output=embed" title="Localisation du Centre d'Orthodontie Gravelle"></iframe>
  </div>
  </div>
  </div>
@@ -464,7 +467,7 @@
  </div>
  <div>
  <h4>Navigation</h4>
- <ul><li><a href="index.html">Accueil</a></li><li><a href="orthodontie-enfants-adolescents.html">Enfants &amp; ados</a></li><li><a href="orthodontie-adulte.html">Adultes</a></li><li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li><li><a href="le-deroulement-du-traitement.html">Le traitement</a></li><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="conseils-appareil-dentaire.html">Conseils appareil</a></li><li><a href="soins-esthetiques.html">Soins esthétiques</a></li><li><a href="le-cabinet.html">Le cabinet</a></li><li><a href="contact.html">Contact</a></li></ul>
+ <ul><li><a href="index.html">Accueil</a></li><li><a href="orthodontie-enfants-adolescents.html">Enfants &amp; ados</a></li><li><a href="orthodontie-adulte.html">Adultes</a></li><li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li><li><a href="le-deroulement-du-traitement.html">Le traitement</a></li><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="conseils-appareil-dentaire.html">Conseils appareil</a></li><li><a href="blog/index.html">Conseils</a></li><li><a href="soins-esthetiques.html">Soins esthétiques</a></li><li><a href="le-cabinet.html">Le cabinet</a></li><li><a href="contact.html">Contact</a></li></ul>
  </div>
  <div class="foot-contact">
  <h4>Contact</h4>
