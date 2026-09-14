@@ -104,7 +104,12 @@ header.site-header{
 .hero{padding:80px 0 0;background:var(--bg);border-bottom:1px solid var(--line);overflow:hidden}
 .hero-inner{display:grid;grid-template-columns:1.02fr .98fr;gap:64px;align-items:center}
 .hero-copy{padding-bottom:44px}
-.hero h1{color:var(--ink);margin-bottom:.3em;max-width:15ch}
+.hero h1{color:var(--ink);margin-bottom:.18em;max-width:none;font-size:clamp(2rem,4.6vw,3.05rem)}
+.hero h1 .nowrap{white-space:nowrap}
+.hero-tagline{
+  font-family:var(--serif);font-size:clamp(1.35rem,3vw,1.85rem);font-weight:400;
+  color:var(--accent);margin:0 0 .8em;line-height:1.25;max-width:22ch
+}
 .hero p{font-size:1.2rem;max-width:520px;margin-bottom:1.9rem;color:var(--ink-soft)}
 .hero .btn{margin-right:12px;margin-bottom:12px}
 .hero-photo{position:relative;align-self:stretch;min-height:100%}
