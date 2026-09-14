@@ -20,7 +20,7 @@
 <meta property="og:image" content="https://www.orthodontie-charenton.fr/images/facade-cabinet.jpg">
 
 <link rel="icon" href="images/favicon.png" type="image/png">
-<link rel="stylesheet" href="css/style.css?v=3">
+<link rel="stylesheet" href="css/style.css?v=4">
 
 <!-- Nom du site pour Google -->
 <script type="application/ld+json">
@@ -37,7 +37,7 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@type": "Dentist",
+ "@type": ["Dentist", "LocalBusiness"],
  "name": "Centre d'Orthodontie Gravelle, Dr Jessica Marciano",
  "image": "https://www.orthodontie-charenton.fr/images/facade-cabinet.jpg",
  "url": "https://www.orthodontie-charenton.fr/",
@@ -45,15 +45,10 @@
  "priceRange": "Sécurité sociale · Tiers payant · CMU",
  "medicalSpecialty": "Orthodontic",
  "areaServed": ["Charenton-le-Pont","Saint-Maurice","Maisons-Alfort","Ivry-sur-Seine","Paris 12e","Val-de-Marne (94)"],
- "aggregateRating": {"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"6","bestRating":"5","worstRating":"1"},
- "review": [
- {"@type":"Review","author":{"@type":"Person","name":"Béatrice T"},"reviewRating":{"@type":"Rating","ratingValue":"4","bestRating":"5"},"reviewBody":"J'ai fait plus de 2 ans d'orthodontie adulte avec le Dr Marciano, et je la recommande. Toujours souriante, elle explique bien les choses et prend le temps de recevoir en cas d'urgence."},
- {"@type":"Review","author":{"@type":"Person","name":"Sandrine Bourguignon"},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Très bon centre médical. Le Dr Marciano est une très bonne professionnelle, agréable et de bon conseil. Elle a soigné mes enfants et moi-même. Travail remarquable."},
- {"@type":"Review","author":{"@type":"Person","name":"Tesnime Rhouma"},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Suivie depuis plusieurs années, je ne pourrais pas être plus satisfaite. Bienveillante et très professionnelle, elle explique tout avec patience. Je recommande fortement."},
- {"@type":"Review","author":{"@type":"Person","name":"Kayana Sun"},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Une orthodontiste exceptionnelle. Grâce à elle, j'ai aujourd'hui un sourire dont je suis fière. Douce, attentive et constante. Je la recommande sincèrement."},
- {"@type":"Review","author":{"@type":"Person","name":"Sacha Abecassis"},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Excellent orthodontiste ! Le traitement des bagues pour mon fils s'est parfaitement déroulé et le résultat est superbe. Je recommande vivement."},
- {"@type":"Review","author":{"@type":"Person","name":"Sandra Saint Fleury"},"reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"reviewBody":"Cabinet très agréable et à l'écoute. Le Dr Marciano s'adapte à tous les profils, même les plus petits. Merci pour votre professionnalisme et votre gentillesse."}
+ "sameAs": [
+  "https://www.doctolib.fr/centre-dentaire/charenton-le-pont/centre-d-orthodontie-gravelle"
  ],
+ "hasMap": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e6725b8fe59355:0x616da23d82e8fa34",
  "address": {
  "@type": "PostalAddress",
  "streetAddress": "176 Rue de Paris",
@@ -127,7 +122,7 @@
  <li><a href="index.html" class="active">Accueil</a></li>
  <li><a href="orthodontie-enfants-adolescents.html">Enfants &amp; ados</a></li>
  <li><a href="orthodontie-adulte.html">Adultes</a></li>
- <li><a href="invisalign.html">Aligneurs invisibles</a></li><li class="has-dropdown"><a href="le-deroulement-du-traitement.html">Le traitement</a><ul class="dropdown"><li><a href="le-deroulement-du-traitement.html">Le déroulement du traitement</a></li><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="conseils-appareil-dentaire.html">Conseils : vivre avec un appareil</a></li></ul></li>
+ <li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li><li class="has-dropdown"><a href="le-deroulement-du-traitement.html">Le traitement</a><ul class="dropdown"><li><a href="le-deroulement-du-traitement.html">Le déroulement du traitement</a></li><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="conseils-appareil-dentaire.html">Conseils : vivre avec un appareil</a></li></ul></li>
  <li><a href="soins-esthetiques.html">Soins esthétiques</a></li>
  <li><a href="le-cabinet.html">Le cabinet</a></li>
  <li><a href="contact.html">Contact</a></li>
@@ -141,8 +136,9 @@
  <div class="container">
  <div class="hero-inner">
  <div class="hero-copy">
- <span class="kicker">Orthodontiste · Charenton-le-Pont</span>
- <h1>Un sourire qui change tout.</h1>
+ <span class="kicker">Centre d'Orthodontie Gravelle</span>
+ <h1>Orthodontiste à Charenton-le-Pont</h1>
+ <h2 class="hero-tagline">Un sourire qui change tout.</h2>
  <p>Vos <strong>orthodontistes à Charenton-le-Pont</strong> : le Centre d'Orthodontie Gravelle réunit les <strong>Dr Jessica Marciano</strong> et <strong>Dr Marie-Hélène Rit-Guyomard</strong>. Pour les enfants, les adolescents et les adultes, un suivi attentif et des techniques à la pointe, dans un lieu où l'on se sent bien.</p>
  <a href="https://www.doctolib.fr/centre-dentaire/charenton-le-pont/centre-d-orthodontie-gravelle" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Prendre rendez-vous</a>
  <a href="tel:+33143962600" class="btn btn-outline btn-lg">01 43 96 26 00</a>
@@ -223,7 +219,7 @@
  <img class="soin-img" src="images/aligneur-transparent.jpg" alt="Homme mettant en place un aligneur transparent (gouttière invisible)">
  <h3>Aligneurs invisibles</h3>
  <p>Des gouttières transparentes sur-mesure, quasi invisibles et amovibles, pour corriger votre sourire en toute discrétion.</p>
- <a class="more" href="invisalign.html">En savoir plus →</a>
+ <a class="more" href="aligneurs-invisibles.html">En savoir plus →</a>
  </article>
  </div>
 
@@ -447,7 +443,7 @@
  </div>
  <div>
  <h4>Navigation</h4>
- <ul><li><a href="index.html">Accueil</a></li><li><a href="orthodontie-enfants-adolescents.html">Enfants &amp; ados</a></li><li><a href="orthodontie-adulte.html">Adultes</a></li><li><a href="invisalign.html">Aligneurs invisibles</a></li><li><a href="le-deroulement-du-traitement.html">Le traitement</a></li><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="conseils-appareil-dentaire.html">Conseils appareil</a></li><li><a href="soins-esthetiques.html">Soins esthétiques</a></li><li><a href="le-cabinet.html">Le cabinet</a></li><li><a href="contact.html">Contact</a></li></ul>
+ <ul><li><a href="index.html">Accueil</a></li><li><a href="orthodontie-enfants-adolescents.html">Enfants &amp; ados</a></li><li><a href="orthodontie-adulte.html">Adultes</a></li><li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li><li><a href="le-deroulement-du-traitement.html">Le traitement</a></li><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="conseils-appareil-dentaire.html">Conseils appareil</a></li><li><a href="soins-esthetiques.html">Soins esthétiques</a></li><li><a href="le-cabinet.html">Le cabinet</a></li><li><a href="contact.html">Contact</a></li></ul>
  </div>
  <div>
  <h4>Contact</h4>

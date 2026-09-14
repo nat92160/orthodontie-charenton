@@ -7,7 +7,7 @@ Site web complet, optimisé pour le référencement Google local (Charenton-le-P
 - `index.html` — Accueil
 - `orthodontie-enfants-adolescents.html`
 - `orthodontie-adulte.html`
-- `invisalign.html`
+- `aligneurs-invisibles.html` (ancienne URL : `invisalign.html`, redirection)
 - `le-cabinet.html`
 - `contact.html`
 - `mentions-legales.html`
