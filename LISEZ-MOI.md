@@ -75,11 +75,10 @@ Le dossier est prêt (il contient déjà un fichier `CNAME` pour le domaine).
    (site, Google, Doctolib, annuaires) : Google adore la cohérence.
 4. Encouragez les avis Google (déjà présents au cabinet).
 
-## 5. Activer le formulaire de contact
+## 5. Contact
 
-Le formulaire est une démo côté navigateur. Pour recevoir les messages par e-mail,
-connectez-le à un service comme **Formspree**, **Web3Forms** ou **Netlify Forms**
-(quelques minutes, gratuit pour un petit volume).
+La page contact n'utilise pas de formulaire : rendez-vous via **Doctolib** ou le téléphone
+**01 43 96 26 00**.
 
 ## Informations utilisées
 
