@@ -385,9 +385,21 @@ section.intro-top{padding-top:36px}
 .hero-carousel{border-radius:12px;box-shadow:0 20px 50px rgba(38,35,36,.18);border:1px solid rgba(193,157,104,.38)}
 @media(max-width:900px){.hero-carousel{margin:0}}
 
-/* Lien soins esthétiques dans le menu mobile */
+/* Lien soins esthétiques dans le menu mobile : rangée complète, pas une pastille coincée sous le bouton RDV */
 @media(max-width:900px){
-  .menu a.nav-pill{display:inline-block;margin:2px 0}
+  .menu.open{
+    max-height:calc(100vh - 71px);
+    overflow-y:auto;
+    padding-bottom:88px;
+  }
+  .menu a.nav-pill{
+    display:block;
+    border:0;
+    border-radius:0;
+    padding:0;
+    color:var(--accent);
+    font-weight:600
+  }
 }
 
 /* Bandeau soins esthétiques (accueil) */
