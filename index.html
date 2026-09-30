@@ -20,10 +20,10 @@
 <meta property="og:image" content="https://www.orthodontie-charenton.fr/images/facade-cabinet.jpg">
 
 <link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="preload" as="image" type="image/avif" imagesrcset="images/enfant-sourire-bagues-1-480.avif 480w, images/enfant-sourire-bagues-1-768.avif 768w, images/enfant-sourire-bagues-1-1100.avif 1100w" imagesizes="(max-width: 900px) 100vw, 540px" fetchpriority="high">
 <link rel="preload" href="css/fonts/playfair-display-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="css/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" href="images/enfant-sourire-bagues-1.jpg">
-<link rel="stylesheet" href="css/style.css?v=10">
+<link rel="stylesheet" href="css/style.css?v=11">
 
 <!-- Nom du site pour Google -->
 <script type="application/ld+json">
@@ -31,22 +31,23 @@
  "@context": "https://schema.org",
  "@type": "WebSite",
  "name": "Centre d'Orthodontie Gravelle",
- "alternateName": ["Orthodontie Gravelle", "Centre d'Orthodontie Charenton-le-Pont"],
+ "alternateName": ["Orthodontie Gravelle", "CDS de Charenton", "Centre d'Orthodontie Charenton-le-Pont"],
  "url": "https://www.orthodontie-charenton.fr/"
 }
 </script>
 
-<!-- Données structurées Schema.org : cabinet dentaire / orthodontiste -->
+<!-- Données structurées Schema.org : centre de santé dentaire -->
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@type": ["Dentist", "LocalBusiness"],
- "name": "Centre d'Orthodontie Gravelle, Dr Jessica Marciano",
+ "@type": ["MedicalClinic", "Dentist"],
+ "name": "Centre d'Orthodontie Gravelle",
+ "alternateName": "CDS de Charenton",
+ "description": "Centre de santé dentaire. Nom public : Centre d'Orthodontie Gravelle. Dénomination RPPS : CDS de Charenton. Gestionnaire : [à compléter par le centre]. Numéro FINESS : [à compléter par le centre].",
  "image": "https://www.orthodontie-charenton.fr/images/facade-cabinet.jpg",
  "url": "https://www.orthodontie-charenton.fr/",
  "telephone": "+33143962600",
  "priceRange": "Sécurité sociale · Tiers payant · CMU",
- "medicalSpecialty": "Orthodontic",
  "areaServed": ["Charenton-le-Pont","Saint-Maurice","Maisons-Alfort","Ivry-sur-Seine","Paris 12e","Val-de-Marne (94)"],
  "sameAs": [
   "https://www.doctolib.fr/centre-dentaire/charenton-le-pont/centre-d-orthodontie-gravelle"
@@ -62,8 +63,8 @@
  },
  "geo": {
  "@type": "GeoCoordinates",
- "latitude": 48.8215,
- "longitude": 2.4128
+ "latitude": 48.829254,
+ "longitude": 2.401762
  },
  "openingHoursSpecification": [
  {"@type":"OpeningHoursSpecification","dayOfWeek":"Monday","opens":"10:00","closes":"18:30"},
@@ -73,8 +74,8 @@
  {"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"10:00","closes":"18:30"}
  ],
  "employee": [
- {"@type":"Physician","name":"Dr Jessica Marciano","medicalSpecialty":"Orthodontic"},
- {"@type":"Physician","name":"Dr Marie-Hélène Rit-Guyomard","medicalSpecialty":"Orthodontic"}
+ {"@type":"Person","name":"Dr Jessica Marciano","jobTitle":"Chirurgien-dentiste (activité orientée orthodontie)"},
+ {"@type":"Person","name":"Dr Marie-Hélène Rit-Guyomard","jobTitle":"Chirurgien-dentiste"}
  ],
  "availableService": [
  {"@type":"MedicalProcedure","name":"Orthodontie enfant et adolescent"},
@@ -94,7 +95,7 @@
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
- {"@type":"Question","name":"Où se trouve votre orthodontiste à Charenton-le-Pont ?","acceptedAnswer":{"@type":"Answer","text":"Le Centre d'Orthodontie Gravelle est situé au 176 Rue de Paris, 94220 Charenton-le-Pont, dans le Val-de-Marne (94). Le cabinet est accessible en transports en commun et sur rendez&#8209;vous du lundi au vendredi."}},
+ {"@type":"Question","name":"Où se trouve votre cabinet d'orthodontie à Charenton-le-Pont ?","acceptedAnswer":{"@type":"Answer","text":"Le Centre d'Orthodontie Gravelle est situé au 176 Rue de Paris, 94220 Charenton-le-Pont, dans le Val-de-Marne (94). Le cabinet est accessible en transports en commun et sur rendez&#8209;vous du lundi au vendredi."}},
  {"@type":"Question","name":"À partir de quel âge consulter un orthodontiste ?","acceptedAnswer":{"@type":"Answer","text":"Une première consultation est conseillée dès 4 ans. L'orthodontie enfant et adolescent comme l'orthodontie adulte sont suivies au cabinet."}},
  {"@type":"Question","name":"Le cabinet pratique-t-il le tiers payant ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Le cabinet est agréé Sécurité sociale, pratique le tiers payant et accepte la CMU (Complémentaire santé solidaire). Le détail est sur la page remboursement et mutuelle."}},
  {"@type":"Question","name":"Comment prendre rendez&#8209;vous ?","acceptedAnswer":{"@type":"Answer","text":"En ligne sur Doctolib, par téléphone au 01 43 96 26 00, ou via la page Contact."}},
@@ -121,24 +122,25 @@
 <!-- En-tête / navigation -->
 <header class="site-header">
  <nav class="nav container" aria-label="Navigation principale">
- <a href="index.html" class="brand">
+ <a href="/" class="brand">
  <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg"><circle cx="22" cy="22" r="20.5" fill="none" stroke="#7a1f3d" stroke-width="1.4"/><text x="22" y="30" text-anchor="middle" font-family="Georgia, serif" font-size="23" fill="#7a1f3d">G</text></svg></span>
  <span class="brand-text"><span class="b-name">Orthodontie Gravelle</span><span class="b-sub">Dr Marciano &amp; Dr Rit-Guyomard</span></span>
  </a>
  <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
  <ul class="menu">
- <li><a href="index.html" class="active">Accueil</a></li>
+ <li><a href="/" class="active">Accueil</a></li>
  <li><a href="orthodontie-enfants-adolescents.html">Orthodontie enfant &amp; ado</a></li>
  <li><a href="orthodontie-adulte.html">Orthodontie adulte</a></li>
  <li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li>
  <li><a href="soins-esthetiques.html" class="nav-pill">Soins esthétiques</a></li>
- <li class="has-dropdown"><a href="remboursement-mutuelle.html">Remboursement</a><ul class="dropdown"><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="le-deroulement-du-traitement.html">Déroulement du traitement</a></li><li><a href="conseils-appareil-dentaire.html">Vivre avec un appareil</a></li><li><a href="faq.html">FAQ</a></li><li><a href="blog/index.html">Conseils</a></li></ul></li>
+ <li class="has-dropdown"><a href="remboursement-mutuelle.html">Remboursement</a><ul class="dropdown"><li><a href="remboursement-mutuelle.html">Remboursement &amp; mutuelle</a></li><li><a href="le-deroulement-du-traitement.html">Déroulement du traitement</a></li><li><a href="conseils-appareil-dentaire.html">Vivre avec un appareil</a></li><li><a href="faq.html">FAQ</a></li><li><a href="/blog/">Conseils</a></li></ul></li>
  <li><a href="le-cabinet.html">Cabinet</a></li>
  <li><a href="contact.html">Contact</a></li>
  </ul>
  <a href="https://www.doctolib.fr/centre-dentaire/charenton-le-pont/centre-d-orthodontie-gravelle" target="_blank" rel="noopener" class="btn btn-primary desktop-cta">Prendre RDV</a>
  </nav>
 </header>
+<main>
 
 <!-- Hero -->
 <section class="hero">
@@ -148,7 +150,7 @@
  <span class="kicker">Centre d'Orthodontie Gravelle</span>
  <h1>Orthodontiste à <span class="nowrap">Charenton-le-Pont</span></h1>
  <h2 class="hero-tagline">Un sourire qui change tout.</h2>
- <p>Vos <strong>orthodontistes à Charenton-le-Pont</strong> : le Centre d'Orthodontie Gravelle réunit les <strong>Dr Jessica Marciano</strong> et <strong>Dr Marie-Hélène Rit-Guyomard</strong>. Pour les enfants, les adolescents et les adultes, un suivi attentif et des techniques à la pointe, dans un lieu où l'on se sent bien.</p>
+ <p>Cabinet d'orthodontie à <strong>Charenton-le-Pont</strong> : le Centre d'Orthodontie Gravelle réunit le <strong>Dr Jessica Marciano</strong>, chirurgien-dentiste (activité orientée orthodontie), et le <strong>Dr Marie-Hélène Rit-Guyomard</strong>, chirurgien-dentiste. Pour les enfants, les adolescents et les adultes, un suivi attentif et des techniques à la pointe, dans un lieu où l'on se sent bien.</p>
  <a href="https://www.doctolib.fr/centre-dentaire/charenton-le-pont/centre-d-orthodontie-gravelle" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Prendre rendez&#8209;vous</a>
  <a href="tel:+33143962600" class="btn btn-outline btn-lg">01 43 96 26 00</a>
  <p class="hero-aside">
@@ -162,7 +164,11 @@
  </div>
  </div>
  <div class="hero-photo">
- <img src="images/enfant-sourire-bagues-1.jpg" alt="Jeune fille souriante portant un appareil dentaire à Charenton-le-Pont" width="760" height="570" fetchpriority="high" decoding="async">
+ <picture>
+ <source type="image/avif" srcset="images/enfant-sourire-bagues-1-480.avif 480w, images/enfant-sourire-bagues-1-768.avif 768w, images/enfant-sourire-bagues-1-1100.avif 1100w" sizes="(max-width: 900px) 100vw, 540px">
+ <source type="image/webp" srcset="images/enfant-sourire-bagues-1-480.webp 480w, images/enfant-sourire-bagues-1-768.webp 768w, images/enfant-sourire-bagues-1-1100.webp 1100w" sizes="(max-width: 900px) 100vw, 540px">
+ <img src="images/enfant-sourire-bagues-1.jpg" alt="Jeune fille souriante portant un appareil dentaire à Charenton-le-Pont" width="1100" height="732" fetchpriority="high" decoding="async">
+ </picture>
  </div>
  </div>
  </div>
@@ -199,7 +205,7 @@
  <img src="images/dr-marciano-soin.jpg" alt="Le Dr Jessica Marciano en consultation à Charenton-le-Pont" width="520" height="700" loading="lazy" decoding="async">
  </div>
  <div>
- <span class="kicker">Votre orthodontiste</span>
+ <span class="kicker">Chirurgien-dentiste</span>
  <h2>Le Dr Jessica Marciano à vos côtés</h2>
  <p>Au Centre d'Orthodontie Gravelle, le Dr Jessica Marciano accompagne chaque patient — enfant, adolescent ou adulte — avec <strong>écoute, douceur et pédagogie</strong>. On vous reçoit individuellement, dans un climat de confiance, et l'on vous explique chaque décision sans jargon.</p>
  <p>Aux côtés du Dr Marie-Hélène Rit-Guyomard, elles mettent leur expertise au service de votre sourire, de la première consultation jusqu'au tout dernier rendez&#8209;vous.</p>
@@ -320,87 +326,13 @@
  </div>
 </section>
 
-<!-- Confiance / avis -->
-<section class="trust">
- <div class="container center">
- <span class="kicker">Ils nous font confiance</span>
- <div class="rating">
- <span class="stars">★★★★★</span>
- <span class="score">Ce que nos patients disent sur Google</span>
- </div>
- <div class="review-wall">
-
- <div class="review">
- <div class="rv-head">
- <span class="avatar" style="background:#7cb342">B</span>
- <span class="rv-id"><span class="rv-name">Béatrice T</span></span>
- <span class="rv-g"><span class="b">G</span></span>
- </div>
- <div class="rv-sub"><span class="rv-stars">★★★★☆</span><span class="rv-date">il y a 6 mois</span></div>
- <p class="rv-text">J'ai fait plus de 2 ans d'orthodontie adulte avec le Dr Marciano, et je la recommande. Elle est toujours souriante, agréable et explique bien les choses. Elle a toujours pris le temps de me recevoir en cas d'urgence. Le cabinet est toujours propre et bien entretenu.</p>
- </div>
-
- <div class="review">
- <div class="rv-head">
- <span class="avatar" style="background:#4285F4">S</span>
- <span class="rv-id"><span class="rv-name">Sandrine Bourguignon</span></span>
- <span class="rv-g"><span class="b">G</span></span>
- </div>
- <div class="rv-sub"><span class="rv-stars">★★★★★</span><span class="rv-date">il y a 6 mois</span></div>
- <p class="rv-text">Très bon centre médical. Le Dr Marciano est une très bonne professionnelle, agréable, douce et de bon conseil. Toujours à l'écoute et disponible quand il y a besoin. Je recommande à 100 %. Elle a soigné mes enfants et moi-même adulte. Travail remarquable.</p>
- </div>
-
- <div class="review">
- <div class="rv-head">
- <span class="avatar" style="background:#7e57c2">T</span>
- <span class="rv-id"><span class="rv-name">Tesnime Rhouma</span></span>
- <span class="rv-g"><span class="b">G</span></span>
- </div>
- <div class="rv-sub"><span class="rv-stars">★★★★★</span><span class="rv-date">il y a 6 mois</span></div>
- <p class="rv-text">Je suis suivie par le Dr Marciano depuis plusieurs années et je ne pourrais pas être plus satisfaite ! Elle est toujours souriante, bienveillante et très professionnelle. À l'écoute de ses patients, elle explique tout avec patience et prend soin de chacun. Le centre est impeccable, je recommande fortement le Dr Marciano !</p>
- </div>
-
- <div class="review">
- <div class="rv-head">
- <span class="avatar" style="background:#5c6bc0">K</span>
- <span class="rv-id"><span class="rv-name">Kayana Sun</span></span>
- <span class="rv-g"><span class="b">G</span></span>
- </div>
- <div class="rv-sub"><span class="rv-stars">★★★★★</span><span class="rv-date">il y a 3 mois</span></div>
- <p class="rv-text">Le Dr Marciano est une orthodontiste exceptionnelle. Grâce à elle, j'ai aujourd'hui un sourire dont je suis fière et les compliments sont fréquents, même de la part de professionnels de santé. Elle a ce sens du détail rare et comprend naturellement vos attentes. Toujours douce, attentive et constante depuis plus de 15 ans. Je la recommande sincèrement !</p>
- </div>
-
- <div class="review">
- <div class="rv-head">
- <span class="avatar" style="background:#c2185b">S</span>
- <span class="rv-id"><span class="rv-name">Sacha Abecassis</span></span>
- <span class="rv-g"><span class="b">G</span></span>
- </div>
- <div class="rv-sub"><span class="rv-stars">★★★★★</span><span class="rv-date">il y a 6 mois</span></div>
- <p class="rv-text">Excellent orthodontiste ! Le Dr Marciano est chaleureuse, attentionnée et très professionnelle. Le traitement des bagues pour mon fils s'est parfaitement déroulé et le résultat est superbe. Je recommande vivement !</p>
- </div>
-
- <div class="review">
- <div class="rv-head">
- <span class="avatar" style="background:#1e88e5">S</span>
- <span class="rv-id"><span class="rv-name">Sandra Saint Fleury</span></span>
- <span class="rv-g"><span class="b">G</span></span>
- </div>
- <div class="rv-sub"><span class="rv-stars">★★★★★</span><span class="rv-date">il y a 7 mois</span></div>
- <p class="rv-text">Cabinet très agréable et à l'écoute ! Le Docteur Marciano s'est occupée de mon fils il y a plusieurs années et il était évident qu'elle prenne en charge ma petite fille. J'en suis ravie car elle s'adapte à tous les profils, même les plus petits, qui viennent sans peur à chaque RDV et repartent le sourire « métallisé » aux lèvres. Merci pour votre professionnalisme et votre gentillesse 🙏</p>
- </div>
-
- </div>
- <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47e6725b8fe59355:0x616da23d82e8fa34" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:20px">Voir tous nos avis sur Google</a>
- </div>
-</section>
 
 <!-- Texte local SEO -->
 <section>
  <div class="container" style="max-width:820px;text-align:center">
  <span class="kicker">Orthodontiste à Charenton-le-Pont (94)</span>
  <h2>Votre cabinet d'orthodontie dans le Val-de-Marne</h2>
- <p>Le <strong>Centre d'Orthodontie Gravelle</strong> accueille les patients de <strong>Charenton-le-Pont</strong> et des communes voisines : <a href="orthodontiste-saint-maurice.html">Saint-Maurice</a>, <a href="orthodontiste-maisons-alfort.html">Maisons-Alfort</a>, <a href="orthodontiste-ivry.html">Ivry-sur-Seine</a> et l'est parisien (<a href="orthodontiste-paris-12.html">Paris 12e</a>). Que vous cherchiez une <a href="orthodontie-enfants-adolescents.html">orthodontie enfant et adolescent</a>, une <a href="orthodontie-adulte.html">orthodontie adulte</a> ou des <a href="aligneurs-invisibles.html">aligneurs invisibles</a>, les Dr Jessica Marciano et Dr Marie-Hélène Rit-Guyomard vous reçoivent au 176 rue de Paris, à deux pas du métro Charenton-Écoles (ligne 8).</p>
+ <p>Le <strong>Centre d'Orthodontie Gravelle</strong> accueille les patients de <strong>Charenton-le-Pont</strong> et des communes voisines : <a href="orthodontiste-saint-maurice.html">Saint-Maurice</a>, <a href="orthodontiste-maisons-alfort.html">Maisons-Alfort</a>, <a href="orthodontiste-ivry.html">Ivry-sur-Seine</a> et l'est parisien (<a href="orthodontiste-paris-12.html">Paris 12e</a>). Que vous cherchiez une <a href="orthodontie-enfants-adolescents.html">orthodontie enfant et adolescent</a>, une <a href="orthodontie-adulte.html">orthodontie adulte</a> ou des <a href="aligneurs-invisibles.html">aligneurs invisibles</a>, le Dr Jessica Marciano, chirurgien-dentiste (activité orientée orthodontie), et le Dr Marie-Hélène Rit-Guyomard, chirurgien-dentiste, vous reçoivent au 176 rue de Paris. Le métro le plus proche est Liberté (ligne 8), à environ 450 m ; Charenton-Écoles (ligne 8) est à environ 1,2 km.</p>
  <p>Le Dr Jessica Marciano propose également des <a href="soins-esthetiques.html"><strong>soins esthétiques à Charenton-le-Pont</strong></a> : <a href="acide-hyaluronique-charenton.html">injections d'acide hyaluronique</a>, <a href="peeling-charenton.html">peeling</a> et <a href="hydrofacial-charenton.html">hydrofacial</a>, dans le même cabinet, au 94220.</p>
  <p>Cabinet <strong>agréé Sécurité sociale</strong>, <a href="remboursement-mutuelle.html">remboursement, tiers payant et mutuelle</a>. <a href="faq.html">Questions fréquentes</a>. <a href="contact.html">Contact et rendez&#8209;vous</a>, en ligne sur Doctolib ou par téléphone.</p>
  </div>
@@ -444,8 +376,12 @@
  <a href="https://www.doctolib.fr/centre-dentaire/charenton-le-pont/centre-d-orthodontie-gravelle" target="_blank" rel="noopener" class="btn btn-primary">Prendre RDV sur Doctolib</a>
  </div>
  <div class="map-embed">
- <iframe loading="lazy" src="https://www.google.com/maps?q=176+Rue+de+Paris,+94220+Charenton-le-Pont&output=embed" title="Localisation du Centre d'Orthodontie Gravelle"></iframe>
+ <div class="map-fallback" data-map-embed="https://www.google.com/maps?q=48.829254,2.401762&amp;z=17&amp;output=embed">
+  <p>Plan du cabinet, 176 Rue de Paris, 94220 Charenton-le-Pont. La carte Google Maps n'est chargée qu'après votre accord.</p>
+  <button type="button" class="btn btn-outline" data-map-load>Afficher la carte</button>
+  <p class="map-ext"><a href="https://www.google.com/maps/search/?api=1&amp;query=48.829254%2C2.401762" target="_blank" rel="noopener">Ouvrir dans Google Maps</a></p>
  </div>
+</div>
  </div>
  </div>
 </section>
@@ -461,16 +397,17 @@
 </section>
 
 <!-- Pied de page -->
+</main>
 <footer>
  <div class="container">
  <div class="foot-grid">
  <div>
  <h4>Centre d'Orthodontie Gravelle</h4>
- <p>Dr Jessica Marciano &amp; Dr Marie-Hélène Rit-Guyomard, orthodontistes à Charenton-le-Pont. Orthodontie enfants, adolescents et adultes, gouttières transparentes. Soins esthétiques médicaux (acide hyaluronique, peeling, hydrofacial).</p>
+ <p>Centre de santé dentaire (nom public : Centre d'Orthodontie Gravelle). Dr Jessica Marciano, chirurgien-dentiste (activité orientée orthodontie), et Dr Marie-Hélène Rit-Guyomard, chirurgien-dentiste qui pratique l'orthodontie au centre, à Charenton-le-Pont. Orthodontie enfants, adolescents et adultes, gouttières transparentes. Soins esthétiques médicaux (acide hyaluronique, peeling, hydrofacial).</p>
  <p>Agréé Sécurité sociale · Tiers payant · CMU.</p><p class="foot-zones">Aussi à : <a href="orthodontiste-saint-maurice.html">Saint-Maurice</a> · <a href="orthodontiste-maisons-alfort.html">Maisons-Alfort</a> · <a href="orthodontiste-ivry.html">Ivry-sur-Seine</a> · <a href="orthodontiste-paris-12.html">Paris 12e</a></p><p class="foot-zones">Soins esthétiques : <a href="acide-hyaluronique-charenton.html">Acide hyaluronique</a> · <a href="peeling-charenton.html">Peeling</a> · <a href="hydrofacial-charenton.html">Hydrofacial</a></p>
  </div>
  <div>
- <h4>Navigation</h4><ul><li><a href="index.html">Accueil</a></li><li><a href="orthodontie-enfants-adolescents.html">Orthodontie enfant &amp; ado</a></li><li><a href="orthodontie-adulte.html">Orthodontie adulte</a></li><li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li><li><a href="soins-esthetiques.html">Soins esthétiques</a></li><li><a href="remboursement-mutuelle.html">Remboursement</a></li><li><a href="le-cabinet.html">Cabinet</a></li><li><a href="contact.html">Contact</a></li><li><a href="le-deroulement-du-traitement.html">Déroulement du traitement</a></li><li><a href="conseils-appareil-dentaire.html">Vivre avec un appareil</a></li><li><a href="faq.html">FAQ</a></li><li><a href="blog/index.html">Conseils</a></li></ul>
+ <h4>Navigation</h4><ul><li><a href="/">Accueil</a></li><li><a href="orthodontie-enfants-adolescents.html">Orthodontie enfant &amp; ado</a></li><li><a href="orthodontie-adulte.html">Orthodontie adulte</a></li><li><a href="aligneurs-invisibles.html">Aligneurs invisibles</a></li><li><a href="soins-esthetiques.html">Soins esthétiques</a></li><li><a href="remboursement-mutuelle.html">Remboursement</a></li><li><a href="le-cabinet.html">Cabinet</a></li><li><a href="contact.html">Contact</a></li><li><a href="le-deroulement-du-traitement.html">Déroulement du traitement</a></li><li><a href="conseils-appareil-dentaire.html">Vivre avec un appareil</a></li><li><a href="faq.html">FAQ</a></li><li><a href="/blog/">Conseils</a></li></ul>
  </div>
  <div class="foot-contact">
  <h4>Contact</h4>
@@ -482,13 +419,14 @@
  </div>
  </div>
  <div class="foot-bottom">
- © <span id="year">2026</span> Centre d'Orthodontie Gravelle · <a href="mentions-legales.html">Mentions légales</a>
+ © <span id="year">2026</span> Centre d'Orthodontie Gravelle · <a href="mentions-legales.html">Mentions légales</a> · <button type="button" class="cookie-manage" data-cookie-settings>Gestion des cookies</button>
  </div>
  </div>
 </footer>
 
-<script src="js/analytics.js?v=1"></script>
-<script src="js/main.js?v=6"></script>
+<script src="js/consent.js?v=1" defer></script>
+<script src="js/analytics.js?v=2" defer></script>
+<script src="js/main.js?v=7" defer></script>
 </body>
 </html>
 

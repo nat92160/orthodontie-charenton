@@ -1,10 +1,13 @@
 # Centre d'Orthodontie Gravelle
 
-> Cabinet au 176 Rue de Paris, 94220 Charenton-le-Pont, Val-de-Marne (94). Dr Jessica Marciano, chirurgien-dentiste (activité orientée orthodontie), et Dr Marie-Hélène Rit-Guyomard exercent au Centre d'Orthodontie Gravelle, Charenton-le-Pont. Le Dr Marie-Hélène Rit-Guyomard exerce l'orthodontie dans ce cabinet. Soins esthétiques médicaux (acide hyaluronique, peeling, hydrofacial) proposés par le Dr Jessica Marciano, chirurgien-dentiste, au Centre d'Orthodontie Gravelle, Charenton-le-Pont, après consultation. Les informations ci-dessous reprennent le site public. Elles ne remplacent pas un examen. Aucun tarif n'est publié en ligne. Les résultats et les durées varient selon les personnes.
+> Centre de santé dentaire (nom public : Centre d'Orthodontie Gravelle ; dénomination RPPS : CDS de Charenton) au 176 Rue de Paris, 94220 Charenton-le-Pont, Val-de-Marne (94). Gestionnaire et numéro FINESS : à compléter par le centre. Dr Jessica Marciano, chirurgien-dentiste (activité orientée orthodontie), et Dr Marie-Hélène Rit-Guyomard, chirurgien-dentiste, y pratiquent l'orthodontie. Soins esthétiques médicaux (acide hyaluronique, peeling, hydrofacial) réalisés par le Dr Jessica Marciano après consultation. Les informations ci-dessous reprennent le site public. Elles ne remplacent pas un examen. Aucun tarif n'est publié en ligne. Les résultats et les durées varient selon les personnes. Le site donne une information objective, pas une publicité (art. L.6323-1-9 CSP).
 
 ## Coordonnées
 
-- Nom : Centre d'Orthodontie Gravelle
+- Nom public : Centre d'Orthodontie Gravelle
+- Nature : centre de santé dentaire (RPPS : CDS de Charenton)
+- Gestionnaire : [à compléter par le centre]
+- FINESS : [à compléter par le centre]
 - Adresse : 176 Rue de Paris, 94220 Charenton-le-Pont, France
 - Téléphone : 01 43 96 26 00
 - Rendez-vous Doctolib : https://www.doctolib.fr/centre-dentaire/charenton-le-pont/centre-d-orthodontie-gravelle
@@ -22,7 +25,8 @@
 
 ## Accès
 
-- Métro Charenton-Écoles (ligne 8), rue de Paris
+- Métro ligne 8, station Liberté : la plus proche, environ 450 m (coordonnées BAN du 176 rue de Paris : 48.829254, 2.401762)
+- Métro ligne 8, station Charenton-Écoles : environ 1,2 km
 - Bus 24, 180, 325 et 111
 - Stationnement de voirie à proximité (pas de parking privé au cabinet)
 - Patients accueillis depuis Charenton-le-Pont, Saint-Maurice, Maisons-Alfort, Ivry-sur-Seine et Paris 12e
