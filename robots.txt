@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.orthodontie-charenton.fr/sitemap.xml
+
+# Fiche factuelle pour les assistants : https://www.orthodontie-charenton.fr/llms.txt
