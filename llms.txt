@@ -22,7 +22,8 @@
 
 ## Accès
 
-- Métro Charenton-Écoles (ligne 8), rue de Paris
+- Métro ligne 8, station Liberté : la plus proche, environ 450 m (coordonnées BAN du 176 rue de Paris : 48.829254, 2.401762)
+- Métro ligne 8, station Charenton-Écoles : environ 1,2 km
 - Bus 24, 180, 325 et 111
 - Stationnement de voirie à proximité (pas de parking privé au cabinet)
 - Patients accueillis depuis Charenton-le-Pont, Saint-Maurice, Maisons-Alfort, Ivry-sur-Seine et Paris 12e
