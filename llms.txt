@@ -36,7 +36,7 @@
 - Enfants, adolescents et adultes
 - Première consultation conseillée dès 4 ans
 - Appareils fixes (bagues métalliques ou céramique, attaches auto-ligaturantes) et appareils amovibles
-- Aligneurs invisibles (gouttières transparentes sur mesure) pour adolescents et adultes, après bilan ; port d'environ 22 heures par jour
+- Aligneurs transparents (gouttières sur mesure) pour adolescents et adultes, après bilan ; port d'environ 22 heures par jour. Invisalign est une marque d'Align Technology. Le site ne dit pas que le centre utilise cette marque : la gamme exacte se confirme en consultation.
 - Durée souvent de 6 à 24 mois selon le cas ; suivi en général toutes les 4 à 8 semaines ; contention ensuite
 - Agréé Sécurité sociale ; tiers payant ; Complémentaire santé solidaire (CMU) pour l'orthodontie
 - Avant 16 ans : prise en charge Sécurité sociale sous réserve d'une entente préalable acceptée et d'un traitement commencé avant le 16e anniversaire
@@ -56,13 +56,16 @@ Réalisés par le Dr Jessica Marciano, chirurgien-dentiste (activité orientée 
 - [FAQ](https://www.orthodontie-charenton.fr/faq.html) : questions sur l'orthodontie, le remboursement et les soins esthétiques
 - [Orthodontie enfant et adolescent](https://www.orthodontie-charenton.fr/orthodontie-enfants-adolescents.html)
 - [Orthodontie adulte](https://www.orthodontie-charenton.fr/orthodontie-adulte.html)
-- [Aligneurs invisibles](https://www.orthodontie-charenton.fr/aligneurs-invisibles.html)
+- [Aligneurs transparents](https://www.orthodontie-charenton.fr/aligneurs-invisibles.html) (l'URL /invisalign.html est une redirection noindex vers cette page)
+- [Invisalign ou bagues](https://www.orthodontie-charenton.fr/blog/aligneurs-invisibles-vs-bagues.html)
 - [Déroulement du traitement](https://www.orthodontie-charenton.fr/le-deroulement-du-traitement.html)
 - [Remboursement et mutuelle](https://www.orthodontie-charenton.fr/remboursement-mutuelle.html)
 - [Soins esthétiques](https://www.orthodontie-charenton.fr/soins-esthetiques.html)
 - [Acide hyaluronique](https://www.orthodontie-charenton.fr/acide-hyaluronique-charenton.html)
 - [Peeling](https://www.orthodontie-charenton.fr/peeling-charenton.html)
 - [Hydrofacial](https://www.orthodontie-charenton.fr/hydrofacial-charenton.html)
+- [Durée de l'acide hyaluronique](https://www.orthodontie-charenton.fr/blog/acide-hyaluronique-duree.html)
+- [Hydrofacial ou peeling](https://www.orthodontie-charenton.fr/blog/hydrofacial-ou-peeling.html)
 - [Le cabinet](https://www.orthodontie-charenton.fr/le-cabinet.html)
 - [Contact](https://www.orthodontie-charenton.fr/contact.html)
 - [Saint-Maurice](https://www.orthodontie-charenton.fr/orthodontiste-saint-maurice.html)
