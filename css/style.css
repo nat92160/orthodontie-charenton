@@ -542,3 +542,6 @@ body:has(#cookie-banner:not([hidden])) .book-fab{display:none}
   .cookie-banner{left:10px;right:10px;bottom:10px;padding:16px 14px}
   .cookie-btn{flex-basis:100%}
 }
+footer .foot-title{color:#fff;margin-bottom:16px;font-family:var(--serif);font-weight:400;font-size:1.15rem}
+.map-fallback .map-static{display:block;width:100%}
+.map-fallback .map-static img{width:100%;height:auto;border-radius:var(--radius);display:block}
